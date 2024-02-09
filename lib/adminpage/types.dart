@@ -23,7 +23,6 @@ class Types extends StatelessWidget {
               child: Consumer<TouristProvider>(
                 builder: (context,value,child) {
                   return GridView.builder(itemCount:value.TypeList.length,
-
                       padding: EdgeInsets.symmetric(horizontal: 10),
 
                       gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
